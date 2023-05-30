@@ -4,6 +4,8 @@ import Home from './assets/pages/Home/Home';
 import Services from './assets/pages/Services/Services';
 import Products from './assets/pages/Products/Products';
 import UserInfo from './assets/pages/UserInfo/UserInfo';
+import FooterElement from './assets/components/footerElement/footerElement';
+import About from './assets/pages/about/about';
 import './App.css';
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
 					<Route path="/services" element={<Services />} />
 					<Route path="/products" element={<Products />} />
 					<Route path="/user" element={<UserInfo />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/about/*' element={<About />} />
 				</Routes>
+				<FooterElement />
 			</BrowserRouter>
 		</>
 	);

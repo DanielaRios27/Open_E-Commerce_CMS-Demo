@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footerBtn {
+    padding: 2px 5px 2px 5px;
+    margin: 10px;
+    width: 250px;
+    height: 64;
+    display: flex;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    background-color: #E3ECFD;
+    transition: 0.5s;
+}
+
+.footerBtn:hover {
+    transition: 0.5s;
+    -webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+    box-shadow: 2px 5px 5px #297ea3;
+    cursor: pointer;
+}
+
+.footerBtnIcon {
+    height: 64px;
+    width: 64px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBtnText {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.btnLink {
+    text-decoration: none;
+    color: #09021C;
+}

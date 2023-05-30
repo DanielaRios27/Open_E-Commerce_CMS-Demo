@@ -1,0 +1,55 @@
+.footer {
+    bottom: 0px;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+    background-color: #09021C;
+    border-radius: 10px;
+}
+
+.upperFooter {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.lowerFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.lowerFooterElement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightsFooter {
+    background-color: #09021C;
+}
+
+.upperFooterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialsIcons {
+    height: 64px;
+    width: 64px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}

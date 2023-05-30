@@ -1,0 +1,8 @@
+.rights {
+    display: flex;
+    color: aqua;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

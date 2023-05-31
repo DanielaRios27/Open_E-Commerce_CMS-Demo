@@ -73,12 +73,26 @@
     filter: drop-shadow(2px 5px 5px #297ea3);
 }
 
-@media (min-width: 300px) and (max-width: 929px){
+@media (min-width: 200px) and (max-width: 929px){
     
     .lowerFooterTop {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: auto;
     }
-    
+    .lowerFooter{
+        justify-content: center;
+    }   
+}
+
+@media (min-width: 200px) and (max-width: 439px){
+    .socialsIcons{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .pqrFormQRCode img{
+        height: 150px;
+        width: 150px;
+    }
 }

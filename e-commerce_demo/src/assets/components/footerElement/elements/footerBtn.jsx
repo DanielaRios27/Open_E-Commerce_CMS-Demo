@@ -7,15 +7,20 @@ import { Link } from 'react-router-dom';
 // };
 
 function FooterBtn(props) {
-    
+
     const linkResolver = () => {
-        if (props.sectionId && props.pageLink) {
-          return `/${props.pageLink}#${props.sectionId}`;
-        } else if (props.pageLink) {
-          return `/${props.pageLink}`;
+        if (props.linkType == "local") {
+            if (props.sectionId && props.pageLink) {
+                return `/${props.pageLink}#${props.sectionId}`;
+            } else if (props.pageLink) {
+                return `/${props.pageLink}`;
+            };
+        } else if (props.linkType == "url") {
+            return props.pageLink;
+        } else {
+            return '/';
         }
-        return '/';
-      };
+    };
 
     return (
         <>

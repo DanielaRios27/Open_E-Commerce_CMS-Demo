@@ -7,15 +7,21 @@ import { Link } from 'react-router-dom';
 // };
 
 function FooterBtn(props) {
-
-    const handleClick = () => {
-    };
+    
+    const linkResolver = () => {
+        if (props.sectionId && props.pageLink) {
+          return `/${props.pageLink}#${props.sectionId}`;
+        } else if (props.pageLink) {
+          return `/${props.pageLink}`;
+        }
+        return '/';
+      };
 
     return (
         <>
             {
-                <Link className={styles.btnLink} to={'/about#'+props.sectionId} >
-                    <div className={styles.footerBtn} onClick={handleClick}>
+                <Link className={styles.btnLink} to={linkResolver()} >
+                    <div className={styles.footerBtn}>
                         <img className={styles.footerBtnIcon} src={props.btnIconSrc} alt={props.btnName} />
                         <p className={styles.footerBtnText}>{props.btnText}</p>
                     </div>

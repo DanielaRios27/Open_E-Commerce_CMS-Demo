@@ -1,8 +1,21 @@
 .rights {
     display: flex;
-    color: aqua;
+    color: #CDE7F9;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin: 10px
+}
+
+.tag{
+    color: #CDE7F9;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.tag:hover {
+    color: #297ea3;
+    font-size: 1.05em;
+    transition: 1s;
 }

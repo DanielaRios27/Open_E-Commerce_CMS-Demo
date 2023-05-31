@@ -7,6 +7,6 @@ function FooterSubTitle(props){
             <h2 className={Styles.subTitleH2}>{props.subTitleText}</h2>
         </>
     )
-}
+};
 
 export default FooterSubTitle;

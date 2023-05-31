@@ -5,7 +5,7 @@ import Services from './assets/pages/Services/Services';
 import Products from './assets/pages/Products/Products';
 import UserInfo from './assets/pages/UserInfo/UserInfo';
 import FooterElement from './assets/components/footerElement/footerElement';
-import About from './assets/pages/about/about';
+import About from './assets/pages/About/about';
 import './App.css';
 
 function App() {

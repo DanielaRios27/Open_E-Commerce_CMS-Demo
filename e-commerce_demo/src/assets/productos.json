@@ -1,176 +1,322 @@
 {
-    "Chocolates": [
+    "Tortas": [
         {
-            "nombre": "Trufas",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        }, 
-        {
-            "nombre": "Bolas de chocolate",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Torta de Chocolate",
+            "url-imagen": "https://tortasytortas.com.co/images/virtuemart/product/resized/Torta%20de%20Chocolate_640x200.jpg",
+            "precio": 38000,
+            "stock": 5
         },
         {
-            "nombre": "Chocolate negro",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Torta de Vainilla",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSRoDUpJ0K9jyY-FAVzCpbf4pxOwCaJ02J2w&usqp=CAU",
+            "precio": 38000,
+            "stock": 5
         },
         {
-            "nombre": "Chocolate con almendras",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Torta Chocoway",
+            "imagen": "https://tortasytortas.com.co/images/virtuemart/product/resized/Torta%20Chocoway_640x200.jpg",
+            "precio": 35000,
+            "stock": 5
         },
         {
-            "nombre": "Barra de chocolate",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        }
-    ],
-    "Pasteles": [
-        {
-            "nombre": "Pastel de Caramelo",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Torta De Arequipe",
+            "imagen": "https://tortasytortas.com.co/images/virtuemart/product/resized/Torta%20de%20Arequipe_640x200.jpg",
+            "precio": 35000,
+            "stock": 5
         },
         {
-            "nombre": "Pastel de Chocolate",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Pastel de Vainilla",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Pastel de Fresa",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Pastel de Zanahoria",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Torta Maria Luisa",
+            "imagen": "https://tortasytortas.com.co/images/virtuemart/product/resized/Torta%20MariaLuisa_640x200.jpg",
+            "precio": 20000,
+            "stock": 5
         }
     ],
     "Cheesecakes": [
         {
             "nombre": "Cheesecake de Fresa",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "url-imagen": "https://www.recetasnestlecam.com/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/07892f02f7c57b83d5703b4ee924221e.webp?itok=lCKnEZB9",
+            "precio": 11700,
+            "stock": 5
         },
         {
-            "nombre": "Cheesecake de Chocolate",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Cheesecake de Frutos Rojos",
+            "url-imagen": "https://www.recetasnestle.com.co/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/6c0dd97411c785ebb2f29cd96c91f3ad.jpg?itok=cAbToZIp",
+            "precio": 11700,
+            "stock": 5
+        },
+        {
+            "nombre": "Cheesecake de Avellanas",
+            "url-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9YUzzZHjQ52wie4_QOcE9w-6OExmmIGpAfA&usqp=CAU",
+            "precio": 11700,
+            "stock": 5
+        },
+        {
+            "nombre": "Cheesecake de Mora",
+            "url-imagen": "https://www.recetasnestle.com.co/sites/default/files/srh_recipes/8fba0813a37afcd8febecfcac05800f4.jpg",
+            "precio": 11700,
+            "stock": 5
         },
         {
             "nombre": "Cheesecake de Oreo",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Cheesecake de Vainilla",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Cheesecake de Caramelo",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "url-imagen": "https://okdiario.com/img/2019/03/23/chessecake-de-oreo-655x368.jpg",
+            "precio": 12000,
+            "stock": 5
         }
     ],
     "Brownies": [
         {
-            "nombre": "Brownie Clásico",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Brownie de Chocolate",
+            "url-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQuUmCstaRCT0ln7Wng8YwroIa8JUsU1FqA&usqp=CAU",
+            "precio": 6900,
+            "stock": 5
         },
         {
-            "nombre": "Brownie de Nuez",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Brownie de Mani",
+            "url-imagen": "https://images.aws.nestle.recipes/original/5461c01b57efcc9d14d0a0dec8651359_chocolate_peanut_caramel_brownies.jpg",
+            "precio": 6900,
+            "stock": 5
         },
         {
-            "nombre": "Brownie de Chocolate Blanco",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Brownie de Arequipe",
+            "url-imagen": "https://tortasytortas.com.co/images/virtuemart/product/resized/brownie_de_areiquipe-730x730_640x200.jpg",
+            "precio": 6900,
+            "stock": 5
         },
         {
-            "nombre": "Brownie de Caramelo",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Brownie cubierto con Azucar pulverizada",
+            "url-imagen": "https://tofuu.getjusto.com/orioneat-prod-resized/Dm6R2KfTMnLgr8X84-1200-1200.webp",
+            "precio": 6900,
+            "stock": 5
         },
         {
-            "nombre": "Brownie de Menta",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Brownie de Nutella",
+            "url-imagen": "https://tofuu.getjusto.com/orioneat-prod-resized/CJqGe9xe2srogYT23-1200-1200.webp",
+            "precio": 6900,
+            "stock": 5
         }
     ],
     "Cupcakes": [
         {
+            "nombre": "Cupcake de Banano y Nutella",
+            "url-imagen": "https://cocinamuyfacil.com/wp-content/uploads/muffins_nutella-4.jpg",
+            "precio": 7700,
+            "stock": 5
+        },
+        {
             "nombre": "Cupcake de Vainilla",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "url-imagen": "https://comidaschilenas.com/wp-content/uploads/2022/09/Receta-de-cupcakes-de-vainilla-Comidas-Chilenas.jpg",
+            "precio": 7700,
+            "stock": 5
+        },
+        {
+            "nombre": "Cupcake de Oreo",
+            "url-imagen": "https://www.comedera.com/wp-content/uploads/2021/02/cupcakes-de-oreo-1-1024x744.jpg",
+            "precio": 7700,
+            "stock": 5
         },
         {
             "nombre": "Cupcake de Chocolate",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Cupcake de Fresa",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
-        },
-        {
-            "nombre": "Cupcake de Limón",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "url-imagen": "https://cdn7.kiwilimon.com/recetaimagen/21434/640x426/11491.jpg.webp",
+            "precio": 7700,
+            "stock": 5
         },
         {
             "nombre": "Cupcake de Zanahoria",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "url-imagen": "https://n9z4u8f2.rocketcdn.me/wp-content/uploads/2019/03/Cupcakes-de-zanahoria2.jpg",
+            "precio": 7700,
+            "stock": 5
+        }
+    ],
+    "Postres frios": [
+        {
+            "nombre": "Postre frio de Tres leches",
+            "url-imagen": "https://cdn0.recetasgratis.net/es/posts/0/3/4/postre_de_tres_leches_frio_34430_600.webp",
+            "precio": 10000,
+            "stock": 5
+        },
+        {
+            "nombre": "Postre frio Flan de Caramelo",
+            "url-imagen": "https://cdn0.recetasgratis.net/es/posts/7/4/3/flan_de_caramelo_sin_horno_15347_600.webp",
+            "precio": 10000,
+            "stock": 5
+        },
+        {
+            "nombre": "Postre frio de Milo",
+            "url-imagen": "https://cdn0.recetasgratis.net/es/posts/3/4/6/postre_de_milo_frio_41643_600.webp",
+            "precio": 10000,
+            "stock": 5
+        },
+        {
+            "nombre": "Postre frio Mousse de Chocolate",
+            "url-imagen": "https://www.recetasnestlecam.com/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/369562012750bd46ceaeef5d59a23229.webp?itok=LzjeXKdI",
+            "precio": 12000,
+            "stock": 5
+        },
+        {
+            "nombre": "Postre frio de Limon",
+            "url-imagen": "https://cdn0.recetasgratis.net/es/posts/6/7/4/postre_frio_de_limon_31476_600.webp",
+            "precio": 12000,
+            "stock": 5
+        }
+    ],
+    "Tartas": [
+        {
+            "nombre": "Tarta de Caramelo y galletas",
+            "url-imagen": "https://cdn0.recetasgratis.net/es/posts/4/2/0/tarta_de_caramelo_y_galletas_76024_600.webp",
+            "precio": 12000,
+            "stock": 5
+        },
+        {
+            "nombre": "Tarta de naranja y chocolate",
+            "url-imagen": "https://badun.nestle.es/imgserver/v1/80/1290x742/254d4e9ca280-tarta-de-naranja-y-chocolate.jpg",
+            "precio": 15000,
+            "stock": 5
+        },
+        {
+            "nombre": "Tarta de Unicornio",
+            "url-imagen": "https://blogmegasilvita.com/wp-content/uploads/2017/09/tarta-unicornio-6.jpg",
+            "precio": 15000,
+            "stock": 5
+        },
+        {
+            "nombre": "Tarta de Chocolate",
+            "url-imagen": "https://badun.nestle.es/imgserver/v1/80/1290x742/6641251d07e6-tarta-de-chocolate.jpg",
+            "precio": 12000,
+            "stock": 5
+        },
+        {
+            "nombre": "Tarta de Mora",
+            "url-imagen": "https://www.petitchef.es/imgupl/recipe/tarta-de-moras--md-119090p177284.jpg",
+            "precio": 12000,
+            "stock": 5
         }
     ],
     "Galletas": [
         {
-            "nombre": "Galleta de Chocolate Chip",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Galleta de Naranja",
+            "url-imagen": "https://2trendies.com/hero/2023/02/galletas-de-naranja.jpg?width=1200&aspect_ratio=16:9",
+            "precio": 2500,
+            "stock": 5
         },
         {
-            "nombre": "Galleta de Avena y Pasas",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Galleta de Vainilla con chocolate",
+            "url-imagen": "https://es.cravingsjournal.com/wp-content/uploads/2018/03/galletas-de-vainilla-y-chocolate-1.jpg",
+            "precio": 1800,
+            "stock": 5
         },
         {
-            "nombre": "Galleta de Mantequilla",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Galleta de Coqueta",
+            "url-imagen": "https://reposteriaclaire.com/wp-content/uploads/2019/12/Galleter%C3%ADa.jpg",
+            "precio": 1800,
+            "stock": 5
         },
         {
-            "nombre": "Galleta de Vainilla",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Galleta de Chocolate",
+            "url-imagen": "https://www.recetasderechupete.com/wp-content/uploads/2020/04/Galletas-crujientes-chocolate-1200x828.jpg",
+            "precio": 2500,
+            "stock": 5
         },
         {
-            "nombre": "Galleta de Chispas de Chocolate",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Galleta de Mani",
+            "url-imagen": "https://cdn0.recetasgratis.net/es/posts/0/6/6/galletas_con_mantequilla_de_mani_56660_600.webp",
+            "precio": 1800,
+            "stock": 5
         }
     ],
-    "Antojitos": [
+    "Combos fechas especiales": [
         {
-            "nombre": "Gelatina",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Combo de Cumpleaños",
+            "url-imagen": "https://www.deli.com.co/GrupoProductoImagen/gp558/Combo-de-Cumpleanos-1.jpg",
+            "precio": 28000,
+            "stock": 5
         },
         {
-            "nombre": "Test",
-            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
-            "precio": "10.000"
+            "nombre": "Combo del Dia del padre",
+            "url-imagen": "https://http2.mlstatic.com/D_NQ_NP_957199-MCO69616533757_052023-O.webp",
+            "precio": 45000,
+            "stock": 5
+        },
+        {
+            "nombre": "Combo Festejo Navideño",
+            "url-imagen": "https://http2.mlstatic.com/D_NQ_NP_826833-MCO52902702250_122022-O.webp",
+            "precio": 40500,
+            "stock": 5
+        },
+        {
+            "nombre": "Combo Amor y Amistad",
+            "url-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3P7zF_FAhqKTJH9ZSVIXzcWcPOAbiRWeNtcfuj_Adyacif-dvZLWkl-fNGqdEkxIcPn4&usqp=CAU",
+            "precio": 38900,
+            "stock": 5
+        },
+        {
+            "nombre": "Combo Dia de la Madre",
+            "url-imagen": "https://reposteriaquetayyeya.com/wp-content/uploads/2021/05/combo-dia-de-la-madre-pagina.png",
+            "precio": 40000,
+            "stock": 5
+        }
+    ],
+    "Velas": [
+        {
+            "nombre": "Velas Feliz Cumpleaños Doradas Metalizadas Letras",
+            "url-imagen": "https://http2.mlstatic.com/D_NQ_NP_763048-MCO50056310546_052022-O.webp",
+            "precio": 12000,
+            "stock": 5
+        },
+        {
+            "nombre": "Velas Volcán",
+            "url-imagen": "https://cdn.shopify.com/s/files/1/0656/1451/2377/products/803EF472-E92D-4C3D-95E9-6AEA7BE681C1.jpg?v=1658707966",
+            "precio": 10000,
+            "stock": 5
+        },
+        {
+            "nombre": "Velas palitos caracol",
+            "url-imagen": "https://http2.mlstatic.com/D_NQ_NP_627239-MCO43788008391_102020-O.webp",
+            "precio": 7000,
+            "stock": 5
+        },
+        {
+            "nombre": "Velas Glitter Dorado",
+            "url-imagen": "https://i.pinimg.com/736x/bf/b2/2b/bfb22b63dadfc732cc548e595e61b9bf.jpg",
+            "precio": 10000,
+            "stock": 5
+        },
+        {
+            "nombre": "Velas palito liso",
+            "url-imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTs3U9ZbJQtAXQoAzAzMzqsz6pU1WrG1XcCC9zJBocrb9fYMqImTVqYl-Kz50Mcn4cAH2-QajnHXgh_tlvo8Q1JzpirvS5MLxJHNY2FTEcf8va5uZS1DMCfwNA8f_q1xvkHKHQ&usqp=CAc",
+            "precio": 22000,
+            "stock": 5
+        }
+    ],
+    "Bebidas": [
+        {
+            "nombre": "Gaseosa",
+            "url-imagen": "https://cdnx.jumpseller.com/el-kiosco-golosinas/image/11635997/El-Kiosco-gaseosas-y-pony-malta.png?1654115653",
+            "precio": 9200,
+            "stock": 5
+        },
+        {
+            "nombre": "Vino",
+            "url-imagen": "https://dislicoresqa.vtexassets.com/arquivos/ids/282722-800-auto?v=637902603243200000&width=800&height=auto&aspect=true",
+            "precio": 63000,
+            "stock": 5
+        },
+        {
+            "nombre": "Jugo natural",
+            "url-imagen": "https://cdn-3.expansion.mx/dims4/default/c357164/2147483647/strip/true/crop/7952x4472+0+0/resize/1200x675!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fe2%2F24%2F99e29e4f4c1db64103a35f883951%2Fp-c.jpg",
+            "precio": 15000,
+            "stock": 5
+        },
+        {
+            "nombre": "Champaña",
+            "url-imagen": "https://http2.mlstatic.com/D_NQ_NP_857769-MCO49089819836_022022-O.webp",
+            "precio": 53500,
+            "stock": 5
+        },
+        {
+            "nombre": "Cocteles",
+            "url-imagen": "https://http2.mlstatic.com/D_NQ_NP_756281-MCO50109988398_052022-O.webp",
+            "precio": 45000,
+            "stock": 5
         }
     ]
 }

@@ -24,6 +24,9 @@ function NavBar() {
 				<Link className={styles.navItem} to="/services">
 					Services
 				</Link>
+				<Link className={styles.navItem} to="/about">
+					About
+				</Link>
 				<Link className={styles.navItem} to="/products">
 					Products
 				</Link>
@@ -42,6 +45,9 @@ function NavBar() {
 					</Link>
 					<Link className={styles.navItem} to="/services" onClick={handlerMenu}>
 						Services
+					</Link>
+					<Link className={styles.navItem} to="/about" onClick={handlerMenu}>
+						About
 					</Link>
 					<Link className={styles.navItem} to="/products" onClick={handlerMenu}>
 						Products

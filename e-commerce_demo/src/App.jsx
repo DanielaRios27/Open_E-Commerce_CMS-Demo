@@ -19,7 +19,6 @@ function App() {
 					<Route path="/products" element={<Products />} />
 					<Route path="/user" element={<UserInfo />} />
 					<Route path='/about' element={<About />} />
-					<Route path='/about/*' element={<About />} />
 				</Routes>
 				<FooterElement />
 			</BrowserRouter>

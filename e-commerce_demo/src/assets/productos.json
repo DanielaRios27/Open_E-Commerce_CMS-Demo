@@ -1,0 +1,176 @@
+{
+    "Chocolates": [
+        {
+            "nombre": "Trufas",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }, 
+        {
+            "nombre": "Bolas de chocolate",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Chocolate negro",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Chocolate con almendras",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Barra de chocolate",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ],
+    "Pasteles": [
+        {
+            "nombre": "Pastel de Caramelo",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Pastel de Chocolate",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Pastel de Vainilla",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Pastel de Fresa",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Pastel de Zanahoria",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ],
+    "Cheesecakes": [
+        {
+            "nombre": "Cheesecake de Fresa",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cheesecake de Chocolate",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cheesecake de Oreo",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cheesecake de Vainilla",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cheesecake de Caramelo",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ],
+    "Brownies": [
+        {
+            "nombre": "Brownie Clásico",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Brownie de Nuez",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Brownie de Chocolate Blanco",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Brownie de Caramelo",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Brownie de Menta",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ],
+    "Cupcakes": [
+        {
+            "nombre": "Cupcake de Vainilla",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cupcake de Chocolate",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cupcake de Fresa",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cupcake de Limón",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Cupcake de Zanahoria",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ],
+    "Galletas": [
+        {
+            "nombre": "Galleta de Chocolate Chip",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Galleta de Avena y Pasas",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Galleta de Mantequilla",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Galleta de Vainilla",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Galleta de Chispas de Chocolate",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ],
+    "Antojitos": [
+        {
+            "nombre": "Gelatina",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        },
+        {
+            "nombre": "Test",
+            "url-imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/UISY3JFND5AABPDPM66DOW6HJ4.jpg",
+            "precio": "10.000"
+        }
+    ]
+}

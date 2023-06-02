@@ -1,13 +1,43 @@
-import styles from './UserInfo.module.css';
+import styles from "./UserInfo.module.css";
+import { context } from "../../../App";
+import { useContext } from "react";
 
-function UserInfo() {
-	return (
-		<div className={styles.UserInfo}>
-			Aquí va la información y los componentes relacionados con el usuario que
-			está en la página aunque está información no se va a consultar en una base
-			de datos si no que en un formulario propio
-		</div>
-	);
-}
+const UserInfo = () => {
+  const { user, setUser } = useContext(context);
+  const handlerLogout = () => {
+    setUser((prevState) => ({
+      ...prevState,
+      logged: false,
+    }));
+  };
+  return (
+    <div className={styles.container}>
+      <div className={styles.settings}>
+        <div className={styles.settingsTitle}>
+          <span className={styles.settingsTitleUpdate}>Information</span>
+        </div>
+        <form className={styles.settingsForm}>
+          <div className={styles.settingsPP}>
+            <input
+              id="fileInput"
+              type="file"
+              style={{ display: "none" }}
+              className={styles.settingsPPInput}
+            />
+          </div>
+          <label>Username</label>
+          <input type="text" placeholder={user.username} name="name" />
+          <label>Email</label>
+          <input type="email" placeholder={user.email} name="email" />
+          <label>Password</label>
+          <input type="text" placeholder={user.password} name="password" />
+          <button className={styles.btn} onClick={handlerLogout}>
+            <span>Log out</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+};
 
 export default UserInfo;

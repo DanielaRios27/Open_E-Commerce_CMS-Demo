@@ -66,8 +66,8 @@ function Card({ children, name, price, onAddToCart, onRemoveFromCart, cartItems 
 }
 
 function ItemsShowcase({ selectedItems }) {
-    
-    const { addToCart, removeFromCart, cartItems} = useContext(CartContext);
+
+    const { addToCart, removeFromCart, cartItems } = useContext(CartContext);
 
     if (!selectedItems) {
         return null;
@@ -75,11 +75,11 @@ function ItemsShowcase({ selectedItems }) {
 
     const handleAddToCart = (itemName) => {
         addToCart(itemName);
-      };
-    
-      const handleRemoveFromCart = (itemName) => {
+    };
+
+    const handleRemoveFromCart = (itemName) => {
         removeFromCart(itemName);
-      };
+    };
 
     return (
         <>
@@ -96,41 +96,44 @@ function ItemsShowcase({ selectedItems }) {
 }
 
 function ProductsInterface() {
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  const categories = Object.keys(categoriesData);
-  const [cartItems, setCartItems] = useState([]);
+    const [selectedCategory, setSelectedCategory] = useState(null);
+    const categories = Object.keys(categoriesData);
 
-  useEffect(() => {
-    if (categories.length > 0) {
-      setSelectedCategory(categories[0]);
-    }
-  }, []);
+    useEffect(() => {
+        if (categories.length > 0) {
+            setSelectedCategory(categories[0]);
+        }
+    }, []);
 
-  const handleCategorySelection = (category) => {
-    setSelectedCategory(category);
-  };
+    const handleCategorySelection = (category) => {
+        setSelectedCategory(category);
+    };
 
-  const selectedItems = selectedCategory ? categoriesData[selectedCategory] : null;
+    const selectedItems = selectedCategory ? categoriesData[selectedCategory] : null;
 
-  return (
-    <>
-      <CartProvider>
-        <div className={styles.itemsShowcaseBox}>
-          <div className={styles.navigationBar}>
-            <NavBar categories={categories} onSelectCategory={handleCategorySelection} />
-          </div>
-          <div className={styles.productsInterface}>
-            <div className={styles.interfaceTitle}>
-              <h1>{selectedCategory}</h1>
-            </div>
-            <div className={styles.interfaceContent}>
-              <ItemsShowcase selectedItems={selectedItems} cartItems={cartItems} setCartItems={setCartItems} />
-            </div>
-          </div>
-        </div>
-      </CartProvider>
-    </>
-  );
+    // Check if there are stored cart items in localStorage
+    const storedCartItems = localStorage.getItem('cartItems');
+    const initialCartItems = storedCartItems ? JSON.parse(storedCartItems) : [];
+
+    return (
+        <>
+            <CartProvider>
+                <div className={styles.itemsShowcaseBox}>
+                    <div className={styles.navigationBar}>
+                        <NavBar categories={categories} onSelectCategory={handleCategorySelection} />
+                    </div>
+                    <div className={styles.productsInterface}>
+                        <div className={styles.interfaceTitle}>
+                            <h1>{selectedCategory}</h1>
+                        </div>
+                        <div className={styles.interfaceContent}>
+                            <ItemsShowcase selectedItems={selectedItems} initialCartItems={initialCartItems} />
+                        </div>
+                    </div>
+                </div>
+            </CartProvider>
+        </>
+    );
 }
 
 export default ProductsInterface;

@@ -1,0 +1,72 @@
+.signup {
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.signupTitle {
+  font-size: 2.7em;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1.1em;
+  min-width: 15em;
+}
+
+.signupInput {
+  background-color: white;
+  border: none;
+  border-radius: 0.55em;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  height: 3.5em;
+  outline: none;
+  padding: 0.55em;
+}
+
+.signupButton {
+  border: none;
+  background-color: #f07575;
+  border-radius: 0.55em;
+  cursor: pointer;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  height: 3.5em;
+  margin-top: 1.1em;
+  padding: 0.55em;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.signupButton:hover {
+  background-color: white;
+  color: #f07575;
+}
+
+.loginRegisterButton {
+  border: 1px solid #f07575;
+  border-radius: 0.55em;
+  color: #f07575;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  height: 3.5em;
+  margin-top: 1.1em;
+  padding: 0.55em;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  width: 100%;
+}
+
+.loginRegisterButton:hover {
+  background-color: #f07575;
+  color: white;
+}

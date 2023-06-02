@@ -69,7 +69,7 @@ header {
 }
 
 .menuMobile nav {
-	backdrop-filter: blur(0.2em);
+	backdrop-filter: blur(30px);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
